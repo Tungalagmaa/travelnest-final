@@ -1,0 +1,123 @@
+.thirdline {
+  background-color: #163966;
+  display: flex;
+  color:white;
+  font-size: 24px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+  font-weight: 300;
+  font-family: 'Albert Sans', 'light', sans-serif; 
+  padding: 50px;
+}
+
+.thirdline h2 {
+  text-align: left;
+  margin-left: 0;
+  font-weight: 300;
+  font-family: 'Albert Sans', 'light', sans-serif;
+}
+
+.trip-ideas {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.thirdbox {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  font-weight: 300;
+  margin: 10px;
+  text-align: left;
+  vertical-align: top; 
+  font-size: 18px;
+}
+
+.thirdbox img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.button-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0a1e3e;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.regions {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.regions h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.thirdboxtwo {
+  display: inline-block;
+  width: 180px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px;
+  gap: 5px;
+  vertical-align: top;
+}
+
+.thirdboxtwo:hover {
+  background-color: #0a1e3e;
+  color: white;
+}
+
+.thirdboxtwo img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.thirdboxtwo h3 {
+  margin-bottom: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .thirdline {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px; /* Reduced padding for mobile */
+  }
+
+  .thirdbox, .thirdboxtwo {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .thirdbox img, .thirdboxtwo img {
+      height: 250px; 
+  }
+
+  .button-1 {
+      width: 100%; 
+      text-align: center;
+      padding: 12px 20px;
+  }
+
+  .thirdline h2, .regions h2 {
+      font-size: 20px;
+  }
+}

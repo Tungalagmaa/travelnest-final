@@ -1,0 +1,61 @@
+.fifthline {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  padding: 50px 20px;
+  font-family: 'Albert Sans', 'light', sans-serif;
+  box-sizing: border-box;
+}
+
+.fifthline h2 {
+  font-size: 36px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ddd;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #0a1e3e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-2 {
+  display: inline-block;
+  background-color: #0a1e3e;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
