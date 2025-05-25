@@ -1,0 +1,70 @@
+.secondline {
+    color: black;
+    font-size: 24px;
+    width: 100%;
+    background:white;
+    position: relative;
+    margin: 0;
+    padding: 50px;
+    text-align: center; 
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans','light', sans-serif;
+      box-sizing: border-box; /* Хэмжээг зөв тооцоолох */
+    
+    font-family: 'Albert Sans','light', sans-serif;
+}
+.highlight {
+  color:  #163966; /* Цэнхэр өнгө */
+  font-weight: bold; /* Хүсвэл үсгийг бүдүүн болгоно */
+}
+.down-arrows {
+  color:  #163966; /* Цэнхэр өнгө */
+  font-weight: bold; /* Хүсвэл үсгийг бүдүүн болгоно */
+}
+.secondline h2 {
+  text-align: left;  /* Aligns only the heading to the left */
+  margin-left: 0;
+  font-weight: 300;
+  font-family: 'Albert Sans','light', sans-serif; /* Ensures it's at the start */
+}
+.secondline .secondbox {
+    display: inline-block; /* Aligns the boxes in a row */
+    width: 30%; /* Adjust the width to fit 3 boxes in a row */
+    padding: 10px;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.offer-text {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    color: black; /* Adds space above the offer text */
+}
+
+.button-container {
+    margin-top: 10px; 
+    padding: 10px;/* Adds space above the button */
+}
+.secondline .find-out-btn {
+  text-align: right;
+  padding: 10px;
+}
+.find-out-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #163966;
+    color: white;
+    position: absolute;
+    bottom: 20px;  /* Distance from the bottom of the parent container */
+    right: 20px;  
+    border-radius: 20px;
+    font-size: 16px;
+}

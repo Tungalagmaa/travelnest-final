@@ -1,0 +1,120 @@
+.footer {
+    background-color: #0a1e3e;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.social-media {
+    display: flex;               /* Use flexbox to arrange items in a row */
+    flex-direction: row;         /* Align items in a row */
+    align-items: center;         /* Center the items vertically */
+    justify-content: flex-start; /* Align the section to the left */
+    margin-bottom: 10px;
+}
+
+.social-media h2 {
+    font-size: 24px;
+    margin-right: 15px; /* Space between the text and icons */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;           /* Space between the icons */
+    align-items: center; /* Align the icons vertically */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.website-link {
+    margin-top: 15px;
+}
+
+.website-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.website-link a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+.end-section {
+    padding: 10px;
+    background-color: #0a1e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    font-family: 'Albert Sans', sans-serif;
+}

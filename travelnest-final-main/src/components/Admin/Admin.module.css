@@ -1,0 +1,33 @@
+/* src/pages/Admin.css */
+.admin-greeting {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dashboard-btn {
+    background-color: #f0c040;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.dashboard-btn:hover {
+    background-color: #e0b030;
+}
+
+.dashboard-btn img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
